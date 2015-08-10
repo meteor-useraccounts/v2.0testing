@@ -1,0 +1,30 @@
+<head>
+  <title>UserAccounts v2.0</title>
+</head>
+
+<body>
+  {{> fullPageUA}}
+</body>
+
+
+
+<template name="fullPageUA">
+  <div class="ui segment">
+    <h1 class="ui header">UserAccounts@2.0 playground</h1>
+    <br>
+    <br>
+    <div class="ui three column stackable page grid">
+      <div class="row">
+        <div class="column">
+          {{> uaForm framework="sui"}}
+        </div>
+        <div class="column">
+          {{> uaForm}}
+        </div>
+        <div class="column">
+          {{> uaForm framework="bootstrap"}}
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

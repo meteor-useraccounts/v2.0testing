@@ -1,0 +1,11 @@
+{
+	"public": {
+		"useraccounts": {
+			"logLevel": {
+				"core": "trace",
+				"init": "trace",
+				"semantic-ui-templates": "trace"
+			}
+		}
+	}
+}
